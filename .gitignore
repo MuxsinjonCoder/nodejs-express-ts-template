@@ -1,4 +1,31 @@
-node_moduls/
+# dependencies
+/node_modules
+
+# dotenv environment variables
 .env
-logs/
-dist/
+.env.*.local
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+
+# build output
+/dist
+/build
+
+# coverage reports
+/coverage
+
+# TypeScript
+*.tsbuildinfo
+
+# pm2 logs (if using pm2)
+pids
+*.pid
+*.seed
