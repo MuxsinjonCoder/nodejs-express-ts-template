@@ -21,8 +21,3 @@ pnpm-debug.log*
 
 # TypeScript
 *.tsbuildinfo
-
-# pm2 logs (if using pm2)
-pids
-*.pid
-*.seed
